@@ -42,7 +42,7 @@ def execute_command(cmd):
         exit(1)
 
 LLVM_GIT_HUB_BASE = "https://github.com/llvm/llvm-project.git"
-SPARSE_URL = "git://git.kernel.org/pub/scm/devel/sparse/sparse.git"
+SPARSE_URL = "https://git.kernel.org/pub/scm/devel/sparse/sparse.git"
 
 
 def setup_args():
