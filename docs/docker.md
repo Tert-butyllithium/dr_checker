@@ -1,5 +1,12 @@
 Using DR.CHECKER from docker
 ===================
+
+Update from Haonan:
+
+specify the ubuntu version to make all goes well
+
+===================
+
 Thanks to [Sebastiano](https://github.com/Phat3), we created a dockerized environment for DR.CHECKER. 
 We have three images main, server and client:
 * main: This is the main analysis image, that has all the LLVM setup and can the actual DR.CHECKER analysis.
